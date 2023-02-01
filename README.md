@@ -1,2 +1,2 @@
-# veganstarterpack
-optional average vegan description
+# starterpack
+optional average description 
