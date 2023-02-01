@@ -59,8 +59,8 @@ body:hover .border-menu {
 .sliding-menu {
   position: fixed;
   top: 0;
-  right: 0;
-  background-color: white;
+  left: 0;
+  background-color: purple;
   padding: 10px;
   list-style: none;
   height: 0;
