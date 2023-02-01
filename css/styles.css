@@ -56,3 +56,18 @@ ul.posts li {
 body:hover .border-menu {
   display: block;
 }
+.sliding-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  list-style: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+}
+
+body:hover .sliding-menu {
+  height: 200px;
+}
