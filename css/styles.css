@@ -8,13 +8,13 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 20px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 a {
     text-decoration: none;
@@ -33,7 +33,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
     font-size: .8em;
 }
 
@@ -68,7 +68,7 @@ body:hover .border-menu {
   list-style: none;
   height: 0;
   overflow: hidden;
-  transition: height 0.5s ease-out;
+  transition: height 1s ease-out;
 }
 
 body:hover .sliding-menu {
